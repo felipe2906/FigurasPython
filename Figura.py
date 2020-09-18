@@ -1,8 +1,8 @@
 
 class Figura:
 
-    def hallarArea():
+    def hallarArea(self):
         return 0
 
-    def hallarPerimetro():
+    def hallarPerimetro(self):
         return 0    

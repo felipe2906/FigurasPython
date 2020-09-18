@@ -1,5 +1,6 @@
 from Punto import Punto
-class Rectangulo:
+from Figura import Figura
+class Rectangulo(Figura):
   def __init__(self,p1=Punto,p2=Punto,p3=Punto,p4=Punto):
    self.p1=p1
    self.p2=p2

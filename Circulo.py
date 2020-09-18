@@ -1,6 +1,7 @@
 import math
 from Punto import Punto
-class Circulo:
+from Figura import Figura
+class Circulo(Figura):
   def __init__(self,Punto,radio):
    self.centro = Punto
    self.radio=radio

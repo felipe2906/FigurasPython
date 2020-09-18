@@ -1,6 +1,7 @@
 import math
 from Punto import Punto
-class Triangulo:
+from Figura import Figura
+class Triangulo(Figura):
   def __init__(self,p1=Punto,p2=Punto,p3=Punto):
     self.p1=p1
     self.p2=p2
