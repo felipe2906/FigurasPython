@@ -44,10 +44,3 @@ class Triangulo:
         return area
 
 
-# p1=Punto(-1,1)
-# p2=Punto(1,0)    
-# p3=Punto(-1,0) 
-# t=Triangulo(p1,p2,p3)  
-# print(t.determinarTipoTriangulo())
-# print(t.hallarArea())
-# print(t.hallarPerimetro())
