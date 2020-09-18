@@ -1,4 +1,3 @@
-import math
 from Punto import Punto
 class Rectangulo:
   def __init__(self,p1=Punto,p2=Punto,p3=Punto,p4=Punto):
@@ -24,3 +23,10 @@ class Rectangulo:
 
    
 
+p1=Punto(-1,2)
+p2=Punto(2,2)    
+p3=Punto(2,0)    
+p4=Punto(-1,0)
+R=Rectangulo(p1,p2,p3,p4)   
+print(R.hallarPerimetro())
+print(R.hallarArea())  
