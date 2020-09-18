@@ -26,12 +26,7 @@ class Circulo:
 
 
 
-centro=Punto(2,3)
-r=4
-c1=Circulo(centro,r)
-p2=Punto(-2,3)
-print((c1.hallarPerimetro()))
-print((c1.hallarArea()))
+
 
 
 
